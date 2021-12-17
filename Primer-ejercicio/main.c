@@ -4,7 +4,6 @@
 
 int main(void)
 {
-
   pid_t idPadre = getpid();
   pid_t rc;
 
@@ -21,9 +20,8 @@ int main(void)
       printf("Soy hijo con PID [%d] y mi padre tiene PID [%d]\n", getpid(), idPadre);
       break;   
     }
-
   }
-
   return 0;
-
 }
+
+
